@@ -22,4 +22,4 @@ function Walker(node, callback) {
   }
 }
 
-module.exports = Walker;
+export default Walker;

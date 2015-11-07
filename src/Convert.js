@@ -11,4 +11,4 @@ function Convert(textNode, fontSet) {
   textNode.nodeValue = nodeValue;
 }
 
-module.exports = Convert;
+export default Convert;

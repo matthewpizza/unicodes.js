@@ -1,6 +1,6 @@
-var Convert = require('./Convert');
-var Walker  = require('./Walker');
-var Fraktur = require('../fonts/Fraktur');
+import Convert from './Convert.js';
+import Walker  from './Walker.js';
+import Fraktur from './fonts/Fraktur.js';
 
 // Make text Fraktur.
 Walker(document.body, function (textNode) {
