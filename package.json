@@ -2,7 +2,7 @@
   "name": "unicodes",
   "version": "1.0.0",
   "description": "Convert text to funky unicode.",
-  "main": "unicodes.js",
+  "main": "dist/unicodes.js",
   "scripts": {
     "build": "npm run rollup && npm run uglify",
     "rollup": "rollup --format iife -- src/Main.js > dist/unicodes.js",
