@@ -1,0 +1,14 @@
+{
+  "name": "unicodes",
+  "version": "1.0.0",
+  "description": "Convert text to funky unicode.",
+  "main": "unicodes.js",
+  "scripts": {
+    "build": "browserify src/Unicodes.js -o unicodes.js"
+  },
+  "author": "Matthew Spencer",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "browserify": "^12.0.1"
+  }
+}
